@@ -1,0 +1,14 @@
+{u'regions':
+	 [{u'region_info': 
+	 	{u'bounding_box': 
+	 		{u'left_col': 0.25722125,
+	 		 u'bottom_row': 1,
+	 		 u'right_col': 0.68696105, 
+	 		 u'top_row': 0
+	 		}
+	 	}, 
+	 	u'data': 
+	 		{u'face': 
+	 			{u'identity': 
+	 				{u'concepts': 
+	 					[{u'app_id': u'main', u'id': u'ai_cJHl4KPf', u'value': 0.20446436, u'name': u'sean lennon'}, {u'app_id': u'main', u'id': u'ai_L1xtwzTT', u'value': 0.0039301184, u'name': u'sam waterston'}, {u'app_id': u'main', u'id': u'ai_xX1mhdkZ', u'value': 0.0026798085, u'name': u'tom kenny'}, {u'app_id': u'main', u'id': u'ai_8pmknlT5', u'value': 0.0023166873, u'name': u'steven spielberg'}, {u'app_id': u'main', u'id': u'ai_Sx7Kh5Qn', u'value': 0.0021797335, u'name': u'wim wenders'}, {u'app_id': u'main', u'id'
