@@ -1,8 +1,8 @@
-import requests, json
 
-from flask import Flask, request, redirect, render_template
+from flask import *
 from flask import session as login_session
 from databases import *
+import requests, json
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'you-will-never-guess'
@@ -53,7 +53,7 @@ def iden(url):
 	best_match = concepts[0]
 	print(best_match)
 	print(best_match["name"] , best_match["value"])
-	add_celeb(best_match["name"], best_match["value"])
+	add_celeb_db(best_match["name"], best_match["value"])
 
 	return concepts
 
