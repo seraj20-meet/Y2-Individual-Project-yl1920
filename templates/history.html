@@ -6,6 +6,13 @@
 </body>
 <h1> list of previous shakabooms </h1>
 It's probably {{name}} with a percentage of {{value}}
-{{tt}}
+<br>
+
+{% if concepts %}
+{% for concept in concepts %}
+Name: {{concept.name}}, Value: {{concept.value}}
+<br>
+{% endfor %}
+{% endif %}
 </body>
 </html>

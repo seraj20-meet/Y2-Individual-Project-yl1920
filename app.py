@@ -14,7 +14,7 @@ def home():
 @app.route('/historya')
 def history():
 	table=databases.get_all()
-	return render_template('history.html',tt=table)
+	return render_template('history.html',concepts=table)
 
 @app.route('/search', methods = ['POST','GET'])
 def search():
@@ -22,7 +22,7 @@ def search():
 		concepts = iden(request.form['url'])
 		name=concepts[0]["name"]
 		value=concepts[0]["value"]
-		return render_template('history.html', name = name,value=value)
+		return render_template('history.html', name = name,value=value,concepts=get_all())
 	else:
 		return render_template('homes.html')
 
